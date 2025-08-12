@@ -1,0 +1,57 @@
+.t-label{
+  display: block;
+}
+
+.t-input-group {
+  display: table;
+  border-collapse: collapse;
+}
+
+.t-input-group > :not(.t-input) {
+  display: table-cell;
+  border: 1px solid #ddd;
+  vertical-align: middle;
+}
+
+.t-input {
+  padding: 8px;
+  display: table-cell;
+  border: 1px solid #ddd;
+  vertical-align: middle;
+}
+
+.t-input-group > .t-icon {
+  border: 0;
+  background-color: #eee;
+  color: #777;
+  padding: 0 12px;
+}
+
+.t-input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #ddd !important; /* 기본 테두리 색으로 고정 */
+}
+
+.t-input::-moz-focus-inner {
+  border: 0;
+}
+
+/* 공통 input 기본 스타일 */
+.t-input[type="color"] {
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+/* WebKit 계열 (Chrome, Edge, Safari) */
+.t-input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+.t-input[type="color"]::-webkit-color-swatch {
+  border: none;
+}
+
+/* Firefox */
+.t-input[type="color"]::-moz-color-swatch {
+  border: none;
+}

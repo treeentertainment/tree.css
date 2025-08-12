@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTML Elements Test</title>
+    <link rel="stylesheet" href="dist/tree.css" />
+</head>
+<body>
+
+  <header class="t-header">
+    <nav class="t-nav text-left">
+    <img src="https://placehold.co/30x30" class="logo" alt="로고">
+<ul>
+  <li><a href="#">홈</a></li>
+  <li><a href="#">소개</a></li>
+  <li><a href="#">연락</a></li>
+</ul>
+    </nav>
+  </header>
+  <header class="t-header">
+    <nav class="t-nav text-center">
+      <img src="https://placehold.co/30x30" class="logo" alt="로고">
+
+<ul>
+  <li><a href="#">홈</a></li>
+  <li><a href="#">소개</a></li>
+  <li><a href="#">연락</a></li>
+</ul>
+    </nav>
+  </header>  
+  
+  <header class="t-header">
+    <nav class="t-nav text-right">
+          <img src="https://placehold.co/30x30" class="logo" alt="로고">
+
+<ul>
+  <li><a href="#">홈</a></li>
+  <li><a href="#">소개</a></li>
+  <li><a href="#">연락</a></li>
+</ul>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+    <!-- 텍스트 요소 -->
+    <section>
+      <h2>텍스트 요소</h2>
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+      <p>이것은 <strong>굵게</strong>, <em>기울임</em>, <u>밑줄</u>이 들어간 문장입니다. <a href="#">링크 예시</a>도 있습니다.</p>
+      <blockquote>여기는 인용문입니다. 스타일과 여백을 확인하세요.</blockquote>
+    </section>
+
+    <!-- 리스트 -->
+    <section>
+      <h2>리스트</h2>
+      <ul>
+        <li>순서 없는 리스트 1</li>
+        <li>순서 없는 리스트 2</li>
+      </ul>
+      <ol>
+        <li>순서 있는 리스트 1</li>
+        <li>순서 있는 리스트 2</li>
+      </ol>
+    </section>
+
+    <!-- 이미지 -->
+    <section>
+      <h2>이미지 & 캡션</h2>
+      <figure>
+        <img src="https://placehold.co/600x300" alt="샘플 이미지">
+        <figcaption>이미지 캡션 예시</figcaption>
+      </figure>
+    </section>
+
+    <!-- 테이블 -->
+    <section>
+      <h2>테이블</h2>
+      <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+          <tr>
+            <th>이름</th>
+            <th>나이</th>
+            <th>도시</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>홍길동</td>
+            <td>30</td>
+            <td>서울</td>
+          </tr>
+          <tr>
+            <td>김철수</td>
+            <td>25</td>
+            <td>부산</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+    <h2>버튼</h2>
+    <button type="button" class="t-button primary">primary</button>
+   <button type="button" class="t-button warning">warning</button>
+   <button type="button" class="t-button danger">danger</button>
+   <button type="button" class="t-button info">info</button>
+
+    </section>
+    <!-- 폼 -->
+    <section>
+      <h2>폼 요소</h2>
+      <form>
+        <label for="name" class="t-label">이름:</label>
+        <input type="text" placeholder="이름 입력" class="t-input" id="name">
+        <br><br>
+
+
+        <div class="t-input-group">
+          <label class="t-icon">@</label>
+          <input type="text" placeholder="Email Address" class="t-input" />
+        </div>
+
+        <br><br>
+        <br><br>
+
+
+        <label>이메일: <input type="email" placeholder="이메일 입력" class="t-input"></label><br><br>
+        <label>색상 선택: <input type="color" class="t-input"></label><br><br>
+        <label>범위 선택: <input type="range" min="0" max="100" class="t-input"></label><br><br>
+        <label>메시지: </label>
+        
+        <textarea placeholder="메시지를 입력하세요" class="t-input"></textarea>
+        
+        <br><br>
+        <label>선택 박스:
+          <select class="t-input">
+            <option>옵션 1</option>
+            <option>옵션 2</option>
+          </select>
+        </label><br><br>
+        <label><input type="checkbox"> 체크박스 1</label>
+        <label><input type="checkbox"> 체크박스 2</label><br><br>
+        <label><input type="radio" name="r"> 라디오 1</label>
+        <label><input type="radio" name="r"> 라디오 2</label><br><br>
+      </form>
+    </section>
+
+    <!-- 코드 -->
+    <section>
+      <h2>코드 블록</h2>
+      <pre><code>body {
+  background-color: #fff;
+  color: #333;
+}</code></pre>
+    </section>
+
+    <!-- 기타 -->
+    <section>
+      <h2>기타 요소</h2>
+      <hr>
+      <details>
+        <summary>더보기</summary>
+        <p>이것은 details/summary 테스트입니다.</p>
+      </details>
+      <progress value="70" max="100"></progress>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 HTML Test</p>
+  </footer>
+</div>
+</body>
+</html>
