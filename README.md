@@ -1,6 +1,6 @@
 # TREE.css
 
-## CSS framework made by TREE ENTERTAINMENT
+## 🌳
 
 ### PROJECT ROOT
 ```
