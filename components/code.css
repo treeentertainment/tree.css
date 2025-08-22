@@ -1,0 +1,6 @@
+pre code {
+  display: table-cell; /* 인라인 → 테이블 셀로 변경 */
+  padding: 8px;
+  border: 1px solid #ddd;
+  vertical-align: middle;
+}

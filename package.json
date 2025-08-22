@@ -1,0 +1,31 @@
+{
+  "name": "tree.css",
+  "version": "0.0.2",
+  "description": "css framework made by 🌳",
+  "main": "dist/tree.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "style",
+    "design"
+  ],
+  "author": "treeentertainment",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "postcss-easy-import": "^4.0.0",
+    "postcss-import": "^16.1.1",
+    "postcss-loader": "^8.1.1",
+    "postcss-scss": "^4.0.9"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

@@ -1,0 +1,54 @@
+/* 네비게이션 공통 스타일 */
+.t-nav {
+    background-color: var(--color-bg);
+    display: flex;           /* 가로 배치 */
+    align-items: center;     /* 세로 중앙 정렬 */
+    gap: 10px;               /* 로고와 메뉴 사이 간격 */
+    padding: 0 10px;
+}
+
+/* 로고 */
+.t-nav .logo {
+    width: 30px;
+    height: 30px;
+}
+
+/* 메뉴 ul 초기화 및 가로 배치 */
+.t-nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* 메뉴 항목 */
+.t-nav > ul > li {
+    border-right: solid 1px white;
+}
+
+.t-nav > ul > li:last-child {
+    border-right: none;
+}
+
+/* 메뉴 링크 */
+.t-nav > ul > li a {
+    display: block;
+    background-color: var(--color-primary);
+    color: #000000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 현재 페이지 */
+.t-nav > ul > li a.current {
+    background-color: #FF6347;
+    color: white;
+}
+
+/* hover 효과 */
+.t-nav > ul > li a:hover:not(.current) {
+    background-color: var(--color-hover);
+    color: white;
+}

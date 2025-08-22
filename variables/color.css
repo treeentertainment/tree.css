@@ -1,0 +1,17 @@
+:root {
+  /* Primary */
+  --color-primary: #3396ff;        /* 60% */
+  --color-primary-hover: #66b0ff;  /* 70% */
+
+  /* Danger */
+  --color-danger: #ff6666;         /* 60% */
+  --color-danger-hover: #ff9999;   /* 70% */
+
+  /* Warning */
+  --color-warning: #ffff66;        /* 60% */
+  --color-warning-hover: #ffff99;  /* 70% */
+
+  /* Info */
+  --color-info: #66ff66;           /* 60% */
+  --color-info-hover: #99ff99;     /* 70% */
+}

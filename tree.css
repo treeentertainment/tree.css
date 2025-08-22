@@ -1,0 +1,5 @@
+@import "components/*.css"; /* components 폴더의 모든 CSS */
+@import "layout/*.css"; /* layout 폴더의 모든 CSS */
+@import "reset/*.css"; /* reset 폴더의 모든 CSS */
+@import "utilities/*.css"; /* utilities 폴더의 모든 CSS */
+@import "variables/*.css"; /* variables 폴더의 모든 CSS */
